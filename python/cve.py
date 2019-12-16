@@ -57,7 +57,7 @@ class Nist:
 
     def __repr__(self):
         # self.cve can have the value None.
-        return 'Nist(cve = ' + str(self.cve) + ')'
+        return "Nist(cve = '" + str(self.cve) + "')"
 
     def _get_base_score(self):
         """ Get the Nist base score 3 for a CVE.
